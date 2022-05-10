@@ -1,3 +1,112 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .container {
+       @apply max-w-7xl mx-auto p-4;
+    }
+}
+
+@layer base {
+    html {
+        font-family: Planer-Regular, sans-serif;
+    }
+}
+
+
+/*      Declaring the fonts         */
+@font-face {
+    font-family: 'Planer-Bold';
+    src: url('/fonts/Planer-Bold.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 400;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-DemiBold';
+    src: url('/fonts/Planer-DemiBold.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Planer-DemiBoldItalic';
+    src: url('/fonts/Planer-DemiBoldItalic.ttf') format('ttf');
+    font-style: italic;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-ExtraBold';
+    src: url('/fonts/Planer-ExtraBold.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-ExtraBoldItalic';
+    src: url('/fonts/Planer-ExtraBoldItalic.ttf') format('ttf');
+    font-style: italic;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-ExtraLight';
+    src: url('/fonts/Planer-ExtraLight.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-Italic';
+    src: url('/fonts/Planer-Italic.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-Light';
+    src: url('/fonts/Planer-Light.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-Medium';
+    src: url('/fonts/Planer-Medium.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-MediumItalic';
+    src: url('/fonts/Planer-MediumItalic.ttf') format('ttf');
+    font-style: italic;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-Regular';
+    src: url('/fonts/Planer-Regular.ttf') format('otf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Planer-Regular';
+    src: url('/fonts/Planer-Regular.ttf') format('ttf');
+    font-style: normal;
+    /*font-weight: 700;*/
+    font-display: swap;
+}
