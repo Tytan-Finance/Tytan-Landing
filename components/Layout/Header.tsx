@@ -11,15 +11,15 @@ const navLinks = [
         id: 1,
         text: 'FAQ’s',
         href: '#faq',
-    },{
+    }, {
         id: 2,
         text: 'Whitepaper',
         href: '#whitepaper',
-    },{
+    }, {
         id: 3,
         text: 'glossary',
         href: '#glossary',
-    },{
+    }, {
         id: 4,
         text: 'Discord',
         href: '#discord',
@@ -37,9 +37,9 @@ const Header: React.FC<Props> = () => {
                 </div>
 
                 {/*     Center Links    */}
-                <div className={`flex items-center`}>
+                <div className={`hidden md:flex items-center`}>
                     {
-                        navLinks.map(({text,href,id}) => (
+                        navLinks.map(({text, href, id}) => (
                             <ButtonText href={href} key={id}>
                                 {text}
                             </ButtonText>
@@ -48,10 +48,36 @@ const Header: React.FC<Props> = () => {
                 </div>
 
                 {/*     Right side buttons      */}
-                <div>
+                <div className={`flex items-center space-x-2 sm:space-x-4`}>
                     <ButtonPrimary withRightCut={true}>
                         open app
                     </ButtonPrimary>
+                    {/*<button className={`btn`}>*/}
+                    <div className="md:hidden dropdown dropdown-end">
+                        <label tabIndex={0} className="btn btn-primary btn-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none"
+                                 viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                      d="M4 6h16M4 12h16M4 18h7"/>
+                            </svg>
+                        </label>
+
+                        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-neutral rounded-box w-52 space-y-2">
+                            {
+                                navLinks.map(({text, href, id}) => (
+                                    <li key={id}>
+                                    <ButtonText href={href} >
+                                        {text}
+                                    </ButtonText>
+                                    </li>
+                                ))
+                            }
+
+                            {/*<li><a>Item 2</a></li>*/}
+                        </ul>
+
+                    </div>
+                    {/*</button>*/}
                 </div>
 
             </div>
