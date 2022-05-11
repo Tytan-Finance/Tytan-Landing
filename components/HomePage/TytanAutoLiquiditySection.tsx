@@ -30,14 +30,14 @@ const TytanAutoLiquiditySection: React.FC<Props> = () => {
         <div className={`bg-black py-20 `}>
             <div className={`mx-auto max-w-[1000px] p-4`}>
                 <ResponsiveH1 className={`text-accent text-center`}>
-                    TYTAN Auto-Liquidity _ v1 (TAL1)
+                    TYTAN Auto-Liquidity Engine (TALE)
                 </ResponsiveH1>
 
                 <div
                     className={`mt-12 items-center md:items-start flex gap-10 justify-between flex-col md:flex-row max-w-[1000px] mx-auto`}>
                     <div className={`max-w-[482px] w-full`}>
                         <ResponsiveBody1 className={`text-center`}>
-                            Every 12 hours at 22:52:48 UTC time our TYTAN Auto-Liquidity Engine (TALE) will inject
+                            Every 12 hours at 15:00:00 UTC time our TYTAN Auto-Liquidity Engine (TALE) will inject
                             automatic liquidity into the market. On each buy or sell order there is a 4% tax fee that
                             automatically gets stored into an Auto-LP wallet and built into our protocol’s smart
                             contract is the mechanism which smartly takes the 50% of the amount of TYTAN stored in the
@@ -62,7 +62,7 @@ const TytanAutoLiquiditySection: React.FC<Props> = () => {
                 </div>
 
                 <p className={`text-sm font-Planer-Italic text-accent text-center pt-16`}>
-                    MAR 17, 2022: Please note the above wording has been corrected with the addition of the 22:52:48 timestamp.
+                    MAY 28, 2022: Please note the above wording has been corrected with the addition of the 15:00:00 timestamp.
                 </p>
 
                 <div className={`flex flex-col mt-6 items-center justify-center space-y-2`}>
