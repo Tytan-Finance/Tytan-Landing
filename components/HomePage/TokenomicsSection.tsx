@@ -1,11 +1,196 @@
 import React from 'react';
+import {ResponsiveH1} from "../common";
+import Image from 'next/image';
 
 interface Props {}
 
 const TokenomicsSection : React.FC<Props> = () => {
     return (
-        <div>
-            Tokenomics
+        <div className={`bg-black py-20`}>
+            <div className={`max-w-[1000px] p-4 mx-auto`}>
+                <ResponsiveH1 className={`text-center`}>
+                    Tokenomics
+                </ResponsiveH1>
+
+                <div className={`mt-12 gap-10 flex flex-col md:flex-row`}>
+                    {/*     Left Side    */}
+                    <div className={`flex-1 grid sm:grid-auto-1fr gap-10 max-w-[30rem] mx-auto`}>
+                        {/*     icon with heading side*/}
+                        <div className={`flex flex-col items-center justify-center space-y-10`}>
+                            <Image src={'/homePage/buy-icon.svg'} width={131.09} height={118.84}/>
+                            <ResponsiveH1 className={`text-green font-Planer-Medium ml-6`}>
+                                BUY
+                            </ResponsiveH1>
+                        </div>
+
+                        {/*     list side       */}
+                        <div className={`flex flex-col space-y-2 max-w-[260px]`}>
+
+                            {/*     Automatic LP        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-green font-Planer-DemiBold font-[18px]`}>
+                                    Automatic LP <br/>
+                                    4% of order fees return to liquidity
+                                </p>
+                            </div>
+
+                            {/*     TYTAN Insurance Fund        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-green font-Planer-DemiBold font-[18px]`}>
+                                    TYTAN Insurance Fund <br/>
+                                    5% of order fees are stored in TIF
+                                </p>
+                            </div>
+
+                            {/*     Treasury        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-green font-Planer-DemiBold font-[18px]`}>
+                                    Treasury <br/>
+                                    2.5% of order fees go to the treasury
+                                </p>
+                            </div>
+
+                            {/*     Inferno        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-green font-Planer-DemiBold font-[18px]`}>
+                                    Inferno <br/>
+                                    2.5% of TYTAN is burnt in the Inferno
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*     Right Side   */}
+                    <div className={`flex-1 grid sm:grid-auto-1fr gap-10 max-w-[30rem] mx-auto`}>
+                        {/*     icon with heading side*/}
+                        <div className={`flex flex-col items-center justify-center space-y-10`}>
+                            <Image src={'/homePage/sell-icon.svg'} width={131.09} height={118.84}/>
+                            <ResponsiveH1 className={`text-red font-Planer-Medium ml-6`}>
+                                SELL
+                            </ResponsiveH1>
+                        </div>
+
+                        {/*     list side       */}
+                        <div className={`flex flex-col space-y-2 max-w-[260px]`}>
+
+                            {/*     Automatic LP        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-red font-Planer-DemiBold font-[18px]`}>
+                                    Automatic LP <br/>
+                                    4% of order fees return to liquidity
+                                </p>
+                            </div>
+
+                            {/*     TYTAN Insurance Fund        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-red font-Planer-DemiBold font-[18px]`}>
+                                    TYTAN Insurance Fund <br/>
+                                    5% of order fees are stored in TIF
+                                </p>
+                            </div>
+
+                            {/*     Treasury        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-red font-Planer-DemiBold font-[18px]`}>
+                                    Treasury <br/>
+                                    2.5% of order fees go to the treasury
+                                </p>
+                            </div>
+
+                            {/*     Inferno        */}
+                            <div className={`flex space-x-4`}>
+                                <svg
+                                    width={12}
+                                    height={12}
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className={`mt-[7px] shrink-0`}
+                                >
+                                    <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                </svg>
+
+                                <p className={`text-red font-Planer-DemiBold font-[18px]`}>
+                                    Inferno <br/>
+                                    2.5% of TYTAN is burnt in the Inferno
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
         </div>
     );
 };

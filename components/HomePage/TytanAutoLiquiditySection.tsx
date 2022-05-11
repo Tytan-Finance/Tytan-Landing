@@ -28,7 +28,7 @@ interface Props {
 const TytanAutoLiquiditySection: React.FC<Props> = () => {
     return (
         <div className={`bg-black py-20 `}>
-            <div className={`mx-auto max-w-[1000px]`}>
+            <div className={`mx-auto max-w-[1000px] p-4`}>
                 <ResponsiveH1 className={`text-accent text-center`}>
                     TYTAN Auto-Liquidity _ v1 (TAL1)
                 </ResponsiveH1>
