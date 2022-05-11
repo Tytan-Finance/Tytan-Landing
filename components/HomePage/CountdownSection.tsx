@@ -51,9 +51,9 @@ const CountdownSection: React.FC<Props> = (props) => {
                     </ResponsiveH1>
 
                     {/*    Countdown    */}
-                    <div className={`mt-16`}>
+                    <div className={`mt-12`}>
                         <div
-                            className="grid grid-flow-col gap-10 text-center auto-cols-max overflow-x-scroll md:overflow-auto countdown-container justify-center">
+                            className="grid grid-flow-col pt-4 gap-10 text-center auto-cols-max overflow-x-scroll md:overflow-auto countdown-container justify-center">
                             <div className="flex flex-col">
                                 {/*<span className="countdown font-mono text-5xl">*/}
                                 {/*  <span style={{'--value':days}}></span>*/}

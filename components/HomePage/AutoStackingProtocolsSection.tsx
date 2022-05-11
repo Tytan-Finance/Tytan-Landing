@@ -1,11 +1,14 @@
 import React from 'react';
 
-interface Props {}
+interface Props {
+}
 
-const AutoStackingProtocolsSection : React.FC<Props> = () => {
+const AutoStackingProtocolsSection: React.FC<Props> = () => {
     return (
-        <div>
-            AutoStackingProtocolsSection
+        <div className={`pb-20`}>
+            <div className={`container`}>
+                AutoStackingProtocolsSection
+            </div>
         </div>
     );
 };
