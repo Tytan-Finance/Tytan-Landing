@@ -25,7 +25,7 @@ interface Props {
 
 const CountdownSection: React.FC<Props> = (props) => {
 
-    const expiryTimestamp = new Date('5 Aug, 2023');
+    const expiryTimestamp = new Date('2022-05-25T10:00:00Z');
 
     const {
         seconds,
@@ -123,7 +123,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                                 Min
                             </p>
                             <p className={`text-xl font-Planer-Bold`}>
-                                100 USD
+                                0.5 BNB
                             </p>
                         </div>
 
@@ -133,14 +133,14 @@ const CountdownSection: React.FC<Props> = (props) => {
                                 Max
                             </p>
                             <p className={`text-xl font-Planer-Bold`}>
-                                2500.00 USD
+                                10 BNB
                             </p>
                         </div>
 
                         {/*     *All pre launch sales in Bnb Token      */}
                         <div className={``}>
                             <p className={` text-xl font-Planer-Medium`}>
-                                *All pre launch sales in Bnb Token
+                                *All pre launch sales in BNB Token
                             </p>
                         </div>
                     </div>
