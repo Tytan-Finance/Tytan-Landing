@@ -44,7 +44,7 @@ const CountdownSection: React.FC<Props> = (props) => {
             <div className={`container`}>
 
                 <div
-                    className={`max-w-[1017px] border-[3px] border-accent border-solid mx-auto px-6 md:px-12 py-10 md:py-20 `}>
+                    className={`border-[3px] border-accent border-solid mx-auto px-6 md:px-12 py-10 md:py-20 `}>
 
                     <ResponsiveH1 className={`text-center text-primary`}>
                         Countdown for Presale

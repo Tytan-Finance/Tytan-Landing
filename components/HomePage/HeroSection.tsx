@@ -12,7 +12,7 @@ const HeroSection:React.FC<{}> = () => {
                     Auto-Staking & Compounding From the Future
                 </h1>
 
-                <ResponsiveBody1 className={`mt-8 max-w-[760px] mx-auto`}>
+                <ResponsiveBody1 className={`mt-8 max-w-[760px] text-center mx-auto`}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis eros erat, a dapibus enim vulputate eu. Donec tristique ex sed leo rutrum aliquam ornare at quam
                 </ResponsiveBody1>
 

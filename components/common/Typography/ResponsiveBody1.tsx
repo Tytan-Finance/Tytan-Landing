@@ -6,7 +6,7 @@ interface Props {
 
 const ResponsiveBody1: React.FC<Props> = ({children, className}) => {
     return (
-        <p className={`text-md md:text-lg lg:text-xl text-center font-Planer-Medium leading-[32px] ${className}`}>
+        <p className={`text-md md:text-lg lg:text-xl font-Planer-Medium leading-[32px] ${className}`}>
             {children}
         </p>
     );
