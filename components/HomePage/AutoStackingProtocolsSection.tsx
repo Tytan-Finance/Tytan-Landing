@@ -6,7 +6,7 @@ interface Props {
 
 const AutoStackingProtocolsSection: React.FC<Props> = () => {
     return (
-        <div className={`pb-20 bg-black`}>
+        <div className={`pb-20 bg-black relative`}>
             <div className={`container gap-16 grid grid-cols-1 lg:grid-cols-2`}>
                 {/*     Left-Col   */}
                 <div className={`border-[3px] border-solid border-accent px-10 py-20`}>
@@ -78,11 +78,11 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
 
                 {/*    Right-Col    */}
                 <div>
-                    <ResponsiveH1 className={`text-accent`}>
+                    <ResponsiveH1 className={`text-accent text-center lg:text-left`}>
                         Auto-Staking Protocol
                     </ResponsiveH1>
 
-                    <ResponsiveBody1 className={`mt-6 text-left`}>
+                    <ResponsiveBody1 className={`mt-6 text-center lg:text-left`}>
                         TYTAN provides a decentralized financial asset which rewards users with a sustainable fixed
                         compound interest model through use of it’s unique TYTAN protocol.
                         <br/><br/>

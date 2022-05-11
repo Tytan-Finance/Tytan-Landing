@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
     content: [
         './pages/**/*.{js,ts,jsx,tsx}',
@@ -60,5 +62,9 @@ module.exports = {
             }
         ],
     },
-    plugins: [require("daisyui")],
+    plugins: [require("daisyui"),
+        plugin(function({ addVariant }) {
+            addVariant('child-span', '& span')
+        })
+    ],
 }
