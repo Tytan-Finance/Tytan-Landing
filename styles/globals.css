@@ -22,6 +22,18 @@
         grid-template-columns: auto 1fr;
     }
 
+    /*      Video Player Styles     */
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    }
+
+    .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
     @media only screen and (max-width: 600px) {
         .countdown-container {
             justify-content: flex-start !important;
