@@ -98,8 +98,6 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                         <ButtonPrimary>
                             Whitepaper
                         </ButtonPrimary>
-
-
                     </div>
 
                 </div>
