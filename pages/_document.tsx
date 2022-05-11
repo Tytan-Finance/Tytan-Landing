@@ -3,7 +3,7 @@ import Document, {DocumentContext, Html, Head, Main, NextScript} from 'next/docu
 
 const MyDocument: React.FC<Document> = () => {
     return (
-        <html>
+        <Html>
 
         <Head>
 
@@ -110,7 +110,7 @@ const MyDocument: React.FC<Document> = () => {
         </body>
 
         <NextScript/>
-        </html>
+        </Html>
     )
 }
 
