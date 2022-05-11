@@ -1,5 +1,6 @@
 import React from 'react';
 import ButtonPrimary from "../common/Buttons/ButtonPrimary";
+import {ResponsiveBody1} from "../common";
 
 interface Props {}
 
@@ -11,9 +12,9 @@ const HeroSection:React.FC<{}> = () => {
                     Auto-Staking & Compounding From the Future
                 </h1>
 
-                <p className={`mt-8 max-w-[760px] mx-auto text-xl text-center font-Planer-Medium leading-[32px]`}>
+                <ResponsiveBody1 className={`mt-8 max-w-[760px] mx-auto`}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis eros erat, a dapibus enim vulputate eu. Donec tristique ex sed leo rutrum aliquam ornare at quam
-                </p>
+                </ResponsiveBody1>
 
                 <div className={`flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 space-x-8 mt-16`}>
                     <ButtonPrimary bgGreen withLeftCut btnLg>
