@@ -80,8 +80,7 @@ const HowItWorksSection: React.FC<Props> = () => {
                         stepsData.map(({id,desc,heading,imgSrc,imgHeight,imgWidth}) => (
 
                             <div className={`max-w-[509px] w-full`}>
-
-                                <div className={`flex items-center justify-center`}>
+                                <div className={`min-h-[111px] flex items-center justify-center`}>
                                     <Image src={imgSrc} width={imgWidth} height={imgHeight}/>
                                 </div>
 
