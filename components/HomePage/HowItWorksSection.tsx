@@ -77,9 +77,9 @@ const HowItWorksSection: React.FC<Props> = () => {
                 <div className={`mt-12 flex  flex-wrap justify-center gap-20`}>
 
                     {
-                        stepsData.map(({id,desc,heading,imgSrc,imgHeight,imgWidth}) => (
+                        stepsData.map(({id, desc, heading, imgSrc, imgHeight, imgWidth}) => (
 
-                            <div className={`max-w-[509px] w-full`}>
+                            <div key={id} className={`max-w-[509px] w-full`}>
                                 <div className={`min-h-[111px] flex items-center justify-center`}>
                                     <Image src={imgSrc} width={imgWidth} height={imgHeight}/>
                                 </div>
@@ -98,6 +98,29 @@ const HowItWorksSection: React.FC<Props> = () => {
 
                 </div>
 
+                <div className={`mt-12 items-center md:items-start flex gap-10 justify-between flex-col md:flex-row max-w-[1000px] mx-auto `}>
+
+                    <div className={`max-w-[482px] w-full`}>
+                        <ResponsiveBody1 className={`text-center`}>
+                            The BIGGEST and FASTEST growing burn system of all rebase protocols! Designed to create
+                            massive deflationary pressure, and offset the increasing token supply. The more $TYTAN is
+                            traded, the more that gets put into the burn causing the Afterburner Mechanism to grow in
+                            size, reducing the circulating supply and keeping the TYTAN protocol stable. The designers
+                            of TYTAN envision this blazing to record levels, but in the event of an opportunity that
+                            would have an even greater effect, have created a system in which these funds could be used.
+                        </ResponsiveBody1>
+                    </div>
+
+                    <div className={`max-w-[482px] w-full`}>
+                        <ResponsiveBody1 className={`text-center`}>
+                            The AfterBurner wallet address funds are protected by a Multi-Sig security system which will
+                            require a community representative as a signer. This representative would become the
+                            gatekeeper that represents the will of the community. Additionally, the funds may also be
+                            used for loan and borrow programs that help the protocol and Afterburner mechanism.
+                        </ResponsiveBody1>
+                    </div>
+
+                </div>
             </div>
         </div>
     );
