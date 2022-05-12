@@ -175,7 +175,7 @@ interface Props {
 
 const CompetitiveAdvantagesSection: React.FC<Props> = () => {
     return (
-        <div className={`py-20 bg-black`}>
+        <div className={`py-20`}>
 
             <div className={`max-w-[1000px] p-4 mx-auto`}>
                 <ResponsiveH1 className={`text-center text-accent`}>

@@ -38,9 +38,27 @@ const Home: NextPage = () => {
             <JoinOurDiscordSection/>
             <TytanAutoLiquiditySection/>
             <TokenomicsSection/>
-            <CompetitiveAdvantagesSection/>
-            <VideSection/>
-            <TeamSection/>
+
+            <div className={`relative`}>
+                {/*     Image Section   */}
+                <div className={`grid-rows-1 grid-cols-1 pointer-events-none`}>
+                    <div className={`absolute w-full left-0 video-bg-img`}>
+                        {/*<Image layout={'fill'} src={'/homePage/lines-1.svg'} objectFit={'cover'}/>*/}
+                        <img className={`w-full object-cover -z-10`} src="/homePage/video-bg-moon.png" alt="lines-image"/>
+                    </div>
+                </div>
+                {/*     Page Content Section    */}
+                <div className={`z-10 w-full`}>
+                    <div className={`relative w-full shrink-0`}>
+
+                    <CompetitiveAdvantagesSection/>
+                    <VideSection/>
+                    <TeamSection/>
+                    </div>
+                </div>
+            </div>
+
+
             <FaqSection/>
         </div>
     )

@@ -6,7 +6,7 @@ interface Props {
 
 const VideSection: React.FC<Props> = () => {
     return (
-        <div className={`bg-black py-20`}>
+        <div className={`py-20`}>
             <div className={`max-w-[1000px] mx-auto p-4`}>
                 <div className='player-wrapper'>
                     <ReactPlayer

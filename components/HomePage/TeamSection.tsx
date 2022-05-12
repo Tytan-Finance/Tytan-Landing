@@ -43,7 +43,7 @@ interface Props {
 
 const TeamSection: React.FC<Props> = () => {
     return (
-        <div className={`bg-black pb-20`}>
+        <div className={`pb-20`}>
             <div className={`max-w-[1000px] mx-auto p-4`}>
                 <ResponsiveH1 className={`text-accent text-center`}>
                     TEAM
