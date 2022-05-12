@@ -219,7 +219,7 @@ const CompetitiveAdvantagesSection: React.FC<Props> = () => {
                                            }) => {
                                 return (
                                     <tr key={id}>
-                                        <th className={`bg-black font-Planer-Regular text-[12px] md:text-[18px] text-accent`}>
+                                        <th className={`bg-black md:bg-transparent font-Planer-Regular text-[12px] md:text-[18px] text-accent`}>
                                             {feature}
                                         </th>
                                         {/*     tytan   */}
