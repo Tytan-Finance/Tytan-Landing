@@ -67,7 +67,7 @@ const stepsData = [
 
 const HowItWorksSection: React.FC<Props> = () => {
     return (
-        <div className={`bg-black pb-20 pt-[20-rem]`}>
+        <div className={` pb-20 md:pt-[5rem] lg:pt-[15rem]`}>
             {/*<img className={`w-full object-cover -mt-40`} src="/homePage/moon.png" alt="moon image"/>*/}
             <div className={`container`}>
                 <ResponsiveH1 className={`text-center`}>
