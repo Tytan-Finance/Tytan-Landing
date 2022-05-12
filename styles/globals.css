@@ -38,9 +38,23 @@
         top: 25rem;
     }
 
+    .how-it-works-moon {
+        top: 35rem;
+    }
+
     @media only screen and (max-width: 1270px) {
         .video-bg-img {
             top: 38rem;
+        }
+
+        .how-it-works-moon {
+            top: 45rem;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .how-it-works-moon {
+            top: 40rem;
         }
     }
 
@@ -54,6 +68,16 @@
         .video-bg-img {
             top: 58rem;
         }
+
+        .how-it-works-moon {
+            top: 45rem;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .how-it-works-moon {
+            top: 68rem;
+        }
     }
 
     @media only screen and (max-width: 600px) {
@@ -63,6 +87,10 @@
 
         .video-bg-img {
             top: 64rem;
+        }
+
+        .how-it-works-moon {
+            top: 72rem;
         }
     }
 

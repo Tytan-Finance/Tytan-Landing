@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             <div className={`relative grid`}>
                 {/*     Image Section   */}
                 <div className={`grid-rows-1 grid-cols-1 pointer-events-none`}>
-                    <div className={`absolute w-full left-0 top-[70rem]   md:top-[35rem]`}>
+                    <div className={`absolute w-full left-0 how-it-works-moon `}>
                         {/*<Image layout={'fill'} src={'/homePage/lines-1.svg'} objectFit={'cover'}/>*/}
                         <img className={`w-full object-cover -z-10`} src="/homePage/moon.png" alt="lines-image"/>
                     </div>
