@@ -8,7 +8,7 @@ interface Props {
 
 const HowMuchCanIEarnSection: React.FC<Props> = () => {
     return (
-        <div className={`py-20 bg-black relative overflow-visible`}>
+        <div className={`py-20 relative overflow-visible`}>
 
             {/*     Top white light ray   */}
             <div className={`absolute -top-20`}>
@@ -16,7 +16,7 @@ const HowMuchCanIEarnSection: React.FC<Props> = () => {
                 <img className={`w-full object-cover -z-10`} src="/homePage/lines-1.svg" alt="lines-image"/>
             </div>
 
-            <div className={`container relative mt-16 md:mt-32`}>
+            <div className={`max-w-[1000px] mx-auto p-4 relative sm:mt-16 md:mt-32`}>
                 <ResponsiveH1 className={`text-center font-Planer-Bold text-accent`}>
                     How much can I earn?
                 </ResponsiveH1>

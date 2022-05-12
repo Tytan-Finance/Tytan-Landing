@@ -16,7 +16,7 @@ import {
 
 const Home: NextPage = () => {
     return (
-        <div className="">
+        <div className="bg-black">
             <HeroSection/>
             <CountdownSection/>
             <AutoStackingProtocolsSection/>

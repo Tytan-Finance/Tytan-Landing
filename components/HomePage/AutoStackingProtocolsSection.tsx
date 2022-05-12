@@ -6,8 +6,8 @@ interface Props {
 
 const AutoStackingProtocolsSection: React.FC<Props> = () => {
     return (
-        <div className={`pb-20 bg-black relative`}>
-            <div className={`container gap-16 grid grid-cols-1 lg:grid-cols-2`}>
+        <div className={`pb-20 relative`}>
+            <div className={`max-w-[1000px] mx-auto p-4 gap-16 grid grid-cols-1 lg:grid-cols-2`}>
                 {/*     Left-Col   */}
                 <div className={`border-[3px] border-solid border-accent px-10 py-20`}>
 

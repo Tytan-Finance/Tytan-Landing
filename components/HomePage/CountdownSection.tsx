@@ -41,7 +41,7 @@ const CountdownSection: React.FC<Props> = (props) => {
 
     return (
         <div className={`bg-black pb-20`}>
-            <div className={`container`}>
+            <div className={`max-w-[1000px] mx-auto p-4`}>
 
                 <div
                     className={`border-[3px] border-accent border-solid mx-auto px-6 md:px-12 py-10 md:py-20 `}>
