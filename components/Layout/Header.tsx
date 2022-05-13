@@ -10,19 +10,21 @@ const navLinks = [
     {
         id: 1,
         text: 'FAQ’s',
-        href: '#faq',
+        href: '/#faq',
+        isPageLink: true,
     }, {
         id: 2,
         text: 'Whitepaper',
-        href: '#whitepaper',
+        href: 'https://tytan.finance/TYTAN_Whitepaper.pdf',
     }, {
         id: 3,
         text: 'glossary',
-        href: '#glossary',
+        href: '/glossary',
+        isPageLink: true,
     }, {
         id: 4,
         text: 'Discord',
-        href: '#discord',
+        href: 'https://discord.com/invite/rC83Q7WZuc',
     },
 ];
 
@@ -39,8 +41,8 @@ const Header: React.FC<Props> = () => {
                 {/*     Center Links    */}
                 <div className={`hidden md:flex items-center`}>
                     {
-                        navLinks.map(({text, href, id}) => (
-                            <ButtonText href={href} key={id}>
+                        navLinks.map(({text,isPageLink, href, id}) => (
+                            <ButtonText isPageLink={isPageLink} href={href} key={id}>
                                 {text}
                             </ButtonText>
                         ))
@@ -64,9 +66,9 @@ const Header: React.FC<Props> = () => {
 
                         <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-neutral rounded-box w-52 space-y-2">
                             {
-                                navLinks.map(({text, href, id}) => (
+                                navLinks.map(({text,isPageLink, href, id}) => (
                                     <li key={id}>
-                                    <ButtonText href={href} >
+                                    <ButtonText isPageLink={isPageLink}  href={href} >
                                         {text}
                                     </ButtonText>
                                     </li>

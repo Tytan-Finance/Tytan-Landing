@@ -50,14 +50,12 @@ const Home: NextPage = () => {
                 {/*     Page Content Section    */}
                 <div className={`z-10 w-full`}>
                     <div className={`relative w-full shrink-0`}>
-
                     <CompetitiveAdvantagesSection/>
                     <VideSection/>
                     <TeamSection/>
                     </div>
                 </div>
             </div>
-
 
             <FaqSection/>
         </div>

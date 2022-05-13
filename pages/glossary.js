@@ -178,6 +178,7 @@ const Glossary = () => {
     return (
         <div className={`py-20 bg-black`}>
             <div className={`container`}>
+
                 <ResponsiveH1 className={`text-left text-white`}>
                     Glossary
                 </ResponsiveH1>
