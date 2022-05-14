@@ -192,7 +192,7 @@ const Glossary = () => {
                 {/*    Table Container  */}
                 <div className={`mt-16`}>
                     <div className="overflow-x-auto">
-                        <table className="table w-full">
+                        <table className="table w-full uppercase">
                             {/*// <!-- head -->*/}
                             <thead>
                             <tr>
