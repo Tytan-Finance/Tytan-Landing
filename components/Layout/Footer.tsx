@@ -9,7 +9,7 @@ interface Props {
 const Footer: React.FC<Props> = () => {
     return (
         <div className={`bg-black py-20`}>
-            <Fade direction={'up'} triggerOnce>
+            <Fade triggerOnce direction={'up'}>
                 <ResponsiveH1 className={`text-accent text-center`}>
                     Keep in Touch
                 </ResponsiveH1>
@@ -30,7 +30,6 @@ const Footer: React.FC<Props> = () => {
                     <a href="#">
                         <Image src={'/socials/github.svg'} width={42.26} height={40.8}/>
                     </a>
-
                 </div>
             </Fade>
         </div>

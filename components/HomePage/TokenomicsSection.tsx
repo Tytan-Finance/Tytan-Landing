@@ -75,7 +75,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
                                         TYTAN Insurance Fund <br/>
-                                        5% of order fees are stored in TIF
+                                        2.5% of order fees are stored in TIF
                                     </p>
                                 </div>
 
@@ -93,7 +93,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
                                         Treasury <br/>
-                                        2.5% of order fees go to the treasury
+                                        4.5% of order fees go to the treasury
                                     </p>
                                 </div>
 
@@ -111,7 +111,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
                                         Inferno <br/>
-                                        2.5% of TYTAN is burnt in the Inferno
+                                        3% of TYTAN is burnt in the Inferno
                                     </p>
                                 </div>
                             </div>
@@ -162,7 +162,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
                                         TYTAN Insurance Fund <br/>
-                                        5% of order fees are stored in TIF
+                                        4% of order fees are stored in TIF
                                     </p>
                                 </div>
 
@@ -180,7 +180,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
                                         Treasury <br/>
-                                        2.5% of order fees go to the treasury
+                                        4.5% of order fees go to the treasury
                                     </p>
                                 </div>
 
@@ -198,7 +198,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
                                         Inferno <br/>
-                                        2.5% of TYTAN is burnt in the Inferno
+                                        3.5% of TYTAN is burnt in the Inferno
                                     </p>
                                 </div>
                             </div>
