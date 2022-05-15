@@ -1,6 +1,8 @@
 import React from 'react';
 import {ResponsiveBody1, ResponsiveH1} from "../common";
 import Image from 'next/image';
+import {AttentionSeeker} from "react-awesome-reveal";
+import {Fade} from "react-awesome-reveal";
 
 interface Props {
 }
@@ -70,55 +72,68 @@ const HowItWorksSection: React.FC<Props> = () => {
         <div className={` pb-20 md:pt-[5rem] lg:pt-[15rem]`}>
             {/*<img className={`w-full object-cover -mt-40`} src="/homePage/moon.png" alt="moon image"/>*/}
             <div className={`container`}>
-                <ResponsiveH1 className={`text-center`}>
-                    How it works?
-                </ResponsiveH1>
+                <AttentionSeeker triggerOnce delay={.5} effect={"bounce"}>
+                    <ResponsiveH1 className={`text-center`}>
+                        How it works?
+                    </ResponsiveH1>
+                </AttentionSeeker>
 
                 <div className={`mt-12 flex  flex-wrap justify-center gap-20`}>
+                    <Fade triggerOnce cascade={true} direction={'up'}>
 
-                    {
-                        stepsData.map(({id, desc, heading, imgSrc, imgHeight, imgWidth}) => (
+                        {
+                            stepsData.map(({id, desc, heading, imgSrc, imgHeight, imgWidth}) => (
 
-                            <div key={id} className={`max-w-[509px] w-full`}>
-                                <div className={`min-h-[111px] flex items-center justify-center`}>
-                                    <Image src={imgSrc} width={imgWidth} height={imgHeight}/>
+                                <div key={id} className={`max-w-[509px] w-full`}>
+                                    <div className={`min-h-[111px] flex items-center justify-center`}>
+                                        <Image src={imgSrc} width={imgWidth} height={imgHeight}/>
+                                    </div>
+
+                                    <h2 className={`font-Planer-Medium mt-6 text-center text-green uppercase text-[36px]`}>
+                                        {heading}
+                                    </h2>
+
+                                    <ResponsiveBody1 className={`text-center mt-4`}>
+                                        {desc}
+                                    </ResponsiveBody1>
+
                                 </div>
-
-                                <h2 className={`font-Planer-Medium mt-6 text-center text-green uppercase text-[36px]`}>
-                                    {heading}
-                                </h2>
-
-                                <ResponsiveBody1 className={`text-center mt-4`}>
-                                    {desc}
-                                </ResponsiveBody1>
-
-                            </div>
-                        ))
-                    }
+                            ))
+                        }
+                    </Fade>
 
                 </div>
 
-                <div className={`mt-12 items-center md:items-start flex gap-10 justify-between flex-col md:flex-row max-w-[1000px] mx-auto `}>
+                <div
+                    className={`mt-12 items-center md:items-start flex gap-10 justify-between flex-col md:flex-row max-w-[1000px] mx-auto `}>
+                    <Fade triggerOnce direction={'up'} cascade={true}>
 
-                    <div className={`max-w-[482px] w-full`}>
-                        <ResponsiveBody1 className={`text-center`}>
-                            The BIGGEST and FASTEST growing burn system of all rebase protocols! Designed to create
-                            massive deflationary pressure, and offset the increasing token supply. The more $TYTAN is
-                            traded, the more that gets put into the burn causing the Afterburner Mechanism to grow in
-                            size, reducing the circulating supply and keeping the TYTAN protocol stable. The designers
-                            of TYTAN envision this blazing to record levels, but in the event of an opportunity that
-                            would have an even greater effect, have created a system in which these funds could be used.
-                        </ResponsiveBody1>
-                    </div>
+                        <div className={`max-w-[482px] w-full`}>
+                            <ResponsiveBody1 className={`text-center`}>
+                                The BIGGEST and FASTEST growing burn system of all rebase protocols! Designed to create
+                                massive deflationary pressure, and offset the increasing token supply. The more $TYTAN
+                                is
+                                traded, the more that gets put into the burn causing the Afterburner Mechanism to grow
+                                in
+                                size, reducing the circulating supply and keeping the TYTAN protocol stable. The
+                                designers
+                                of TYTAN envision this blazing to record levels, but in the event of an opportunity that
+                                would have an even greater effect, have created a system in which these funds could be
+                                used.
+                            </ResponsiveBody1>
+                        </div>
 
-                    <div className={`max-w-[482px] w-full`}>
-                        <ResponsiveBody1 className={`text-center`}>
-                            The AfterBurner wallet address funds are protected by a Multi-Sig security system which will
-                            require a community representative as a signer. This representative would become the
-                            gatekeeper that represents the will of the community. Additionally, the funds may also be
-                            used for loan and borrow programs that help the protocol and Afterburner mechanism.
-                        </ResponsiveBody1>
-                    </div>
+                        <div className={`max-w-[482px] w-full`}>
+                            <ResponsiveBody1 className={`text-center`}>
+                                The AfterBurner wallet address funds are protected by a Multi-Sig security system which
+                                will
+                                require a community representative as a signer. This representative would become the
+                                gatekeeper that represents the will of the community. Additionally, the funds may also
+                                be
+                                used for loan and borrow programs that help the protocol and Afterburner mechanism.
+                            </ResponsiveBody1>
+                        </div>
+                    </Fade>
 
                 </div>
             </div>

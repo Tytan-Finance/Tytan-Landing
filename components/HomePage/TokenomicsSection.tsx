@@ -1,10 +1,12 @@
 import React from 'react';
 import {ResponsiveH1} from "../common";
 import Image from 'next/image';
+import {Fade, JackInTheBox} from "react-awesome-reveal";
 
-interface Props {}
+interface Props {
+}
 
-const TokenomicsSection : React.FC<Props> = () => {
+const TokenomicsSection: React.FC<Props> = () => {
     return (
         <div className={`  py-20 relative grid`}>
 
@@ -20,11 +22,14 @@ const TokenomicsSection : React.FC<Props> = () => {
             {/*     Page Content    */}
             <div className={`col-start-1 row-start-1 z-10`}>
                 <div className={`max-w-[1000px] z-20 p-4 mx-auto`}>
-                    <ResponsiveH1 className={`text-center`}>
-                        Tokenomics
-                    </ResponsiveH1>
+                    <JackInTheBox triggerOnce>
+                        <ResponsiveH1 className={`text-center`}>
+                            Tokenomics
+                        </ResponsiveH1>
+                    </JackInTheBox>
 
                     <div className={`mt-12 gap-10 flex flex-col md:flex-row`}>
+                        <Fade triggerOnce direction={'up'} cascade={true}>
                         {/*     Left Side    */}
                         <div className={`flex-1 grid sm:grid-auto-1fr gap-10 max-w-[30rem] mx-auto`}>
                             {/*     icon with heading side*/}
@@ -47,7 +52,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
@@ -65,7 +70,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
@@ -83,7 +88,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
@@ -101,7 +106,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
@@ -134,7 +139,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
@@ -152,7 +157,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
@@ -170,7 +175,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
@@ -188,7 +193,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         className={`mt-[7px] shrink-0`}
                                     >
-                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z" />
+                                        <path fill="#fff" d="M0 6l6-6 6 6-6 6z"/>
                                     </svg>
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
@@ -198,7 +203,7 @@ const TokenomicsSection : React.FC<Props> = () => {
                                 </div>
                             </div>
                         </div>
-
+                        </Fade>
 
                     </div>
 

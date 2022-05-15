@@ -1,5 +1,6 @@
 import React from 'react';
 import {ButtonPrimary, ResponsiveBody1, ResponsiveH1} from "../common";
+import {AttentionSeeker, Fade} from "react-awesome-reveal";
 
 interface Props {
 }
@@ -14,91 +15,105 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                     {/*     top arrows  */}
                     <div className={`flex items-center justify-center space-x-10`}>
 
-                        {/*    left arrow icon*/}
-                        <svg
-                            width={30}
-                            height={34}
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M2 18.875L15 32l13-13.125M15 32V2v30z"
-                                stroke="#fff"
-                                strokeWidth={4}
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
-                        </svg>
+                        <Fade triggerOnce direction={'up'}>
 
-                        {/*    Center Arrow Icons       */}
 
-                        <svg
-                            width={30}
-                            height={34}
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M28 15.125L15 2 2 15.125M15 2v30V2z"
-                                stroke="#00FFA3"
-                                strokeWidth={4}
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
-                        </svg>
+                            {/*    left arrow icon*/}
+                            <svg
+                                width={30}
+                                height={34}
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2 18.875L15 32l13-13.125M15 32V2v30z"
+                                    stroke="#fff"
+                                    strokeWidth={4}
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                />
+                            </svg>
 
-                        {/*    Right arrow icons    */}
-                        <svg
-                            width={30}
-                            height={34}
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M2 18.875L15 32l13-13.125M15 32V2v30z"
-                                stroke="#fff"
-                                strokeWidth={4}
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            />
-                        </svg>
+                            {/*    Center Arrow Icons       */}
 
+                            <svg
+                                width={30}
+                                height={34}
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M28 15.125L15 2 2 15.125M15 2v30V2z"
+                                    stroke="#00FFA3"
+                                    strokeWidth={4}
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                />
+                            </svg>
+
+                            {/*    Right arrow icons    */}
+                            <svg
+                                width={30}
+                                height={34}
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2 18.875L15 32l13-13.125M15 32V2v30z"
+                                    stroke="#fff"
+                                    strokeWidth={4}
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                />
+                            </svg>
+                        </Fade>
                     </div>
 
                     {/*     Heading    */}
-                    <h1 className={`text-green mt-6 text-center text-[50px] md:text-[95px] font-Planer-DemiBold`}>
-                        125,124%
-                    </h1>
+                    <AttentionSeeker triggerOnce effect={'swing'} delay={5}>
 
-                    <p className={`mt-6 text-accent text-center font-Planer-DemiBold text-[29px]`}>
-                        Fixed Staking APY
-                    </p>
+                        <h1 className={`text-green mt-6 text-center text-[50px] md:text-[95px] font-Planer-DemiBold`}>
+                            125,124%
+                        </h1>
+                    </AttentionSeeker>
+
+                    <Fade triggerOnce direction={'up'} delay={2}>
+
+                        <p className={`mt-6 text-accent text-center font-Planer-DemiBold text-[29px]`}>
+                            Fixed Staking APY
+                        </p>
+                    </Fade>
 
                 </div>
 
                 {/*    Right-Col    */}
                 <div>
-                    <ResponsiveH1 className={`text-accent text-center lg:text-left`}>
-                        Auto-Staking Protocol
-                    </ResponsiveH1>
+                    <Fade triggerOnce direction={'up'} cascade={true}>
 
-                    <ResponsiveBody1 className={`mt-6 text-center lg:text-left`}>
-                        TYTAN provides a decentralized financial asset which rewards users with a sustainable fixed
-                        compound interest model through use of it’s unique TYTAN protocol.
-                        <br/><br/>
-                        TYTAN delivers the industry’s highest fixed APY, paid every 30 minutes, and a simple
-                        buy-hold-earn system that grows your $TYTAN portfolio in your wallet at a lightning fast pace.
-                    </ResponsiveBody1>
 
-                    <div className={`flex items-center mt-12 justify-center space-x-4`}>
-                        <ButtonPrimary bgGreen>
-                            Audit
-                        </ButtonPrimary>
+                        <ResponsiveH1 className={`text-accent text-center lg:text-left`}>
+                            Auto-Staking Protocol
+                        </ResponsiveH1>
 
-                        <ButtonPrimary>
-                            Whitepaper
-                        </ButtonPrimary>
-                    </div>
+                        <ResponsiveBody1 className={`mt-6 text-center lg:text-left`}>
+                            TYTAN provides a decentralized financial asset which rewards users with a sustainable fixed
+                            compound interest model through use of it’s unique TYTAN protocol.
+                            <br/><br/>
+                            TYTAN delivers the industry’s highest fixed APY, paid every 30 minutes, and a simple
+                            buy-hold-earn system that grows your $TYTAN portfolio in your wallet at a lightning fast
+                            pace.
+                        </ResponsiveBody1>
+
+                        <div className={`flex items-center mt-12 justify-center space-x-4`}>
+                            <ButtonPrimary bgGreen>
+                                Audit
+                            </ButtonPrimary>
+
+                            <ButtonPrimary>
+                                Whitepaper
+                            </ButtonPrimary>
+                        </div>
+                    </Fade>
 
                 </div>
             </div>

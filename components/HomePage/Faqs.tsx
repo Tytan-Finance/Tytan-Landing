@@ -1,5 +1,6 @@
 import React from 'react';
 import Faq from "./Faq";
+import {Fade} from "react-awesome-reveal";
 
 const leftFaqs = [
     {
@@ -47,20 +48,24 @@ const Faqs = () => {
             <div className={`mt-10 flex flex-col md:flex-row gap-2 md:gap-10`}>
                 {/*     Left Side       */}
                 <div className={`flex-1 space-y-2`}>
-                    {
-                        leftFaqs.map(({id, question, ans}) => (
-                            <Faq key={id} question={question} ans={ans}/>
-                        ))
-                    }
+                    <Fade triggerOnce direction={'up'}>
+                        {
+                            leftFaqs.map(({id, question, ans}) => (
+                                <Faq key={id} question={question} ans={ans}/>
+                            ))
+                        }
+                    </Fade>
                 </div>
 
                 {/*     Right Side      */}
                 <div className={`flex-1 space-y-2`}>
-                    {
-                        rightFaqs.map(({id, question, ans}) => (
-                            <Faq key={id} question={question} ans={ans}/>
-                        ))
-                    }
+                    <Fade triggerOnce direction={'up'}>
+                        {
+                            rightFaqs.map(({id, question, ans}) => (
+                                <Faq key={id} question={question} ans={ans}/>
+                            ))
+                        }
+                    </Fade>
                 </div>
             </div>
         </div>

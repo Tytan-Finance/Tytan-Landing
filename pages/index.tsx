@@ -14,6 +14,7 @@ import {
     VideSection
 } from "../components/HomePage";
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const Home: NextPage = () => {
     return (

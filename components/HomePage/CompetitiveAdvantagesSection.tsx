@@ -1,5 +1,6 @@
 import React from 'react';
 import {ResponsiveH1} from "../common";
+import {Fade, Flip, Roll, Zoom} from 'react-awesome-reveal'
 
 const tableData = [
     {
@@ -178,11 +179,15 @@ const CompetitiveAdvantagesSection: React.FC<Props> = () => {
         <div className={`py-20`}>
 
             <div className={`max-w-[1000px] p-4 mx-auto`}>
+                <Zoom triggerOnce>
+
                 <ResponsiveH1 className={`text-center text-accent`}>
                     Competitive Advantages
                 </ResponsiveH1>
+                </Zoom>
 
                 {/*     Table    */}
+
                 <div className="overflow-x-auto mt-20">
                     <table className="table w-full">
                         {/*// <!-- head -->*/}

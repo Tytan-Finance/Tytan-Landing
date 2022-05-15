@@ -1,6 +1,7 @@
 import React from 'react';
 import {ResponsiveH1} from "../common";
 import Image from 'next/image';
+import {AttentionSeeker, Fade} from "react-awesome-reveal";
 
 const teamMembers = [
     {
@@ -45,11 +46,14 @@ const TeamSection: React.FC<Props> = () => {
     return (
         <div className={`pb-20`}>
             <div className={`max-w-[1000px] mx-auto p-4`}>
+                <AttentionSeeker triggerOnce effect={'heartBeat'}>
                 <ResponsiveH1 className={`text-accent text-center`}>
                     TEAM
                 </ResponsiveH1>
+                </AttentionSeeker>
 
                 <div className={`flex flex-wrap justify-center mt-6 items-center gap-5`}>
+                    <Fade triggerOnce cascade={true} damping={.4}>
                     {
                         teamMembers.map(({id,imgSrc,name}) => (
                             <div key={id} className={`max-w-[225px] w-full`}>
@@ -62,6 +66,7 @@ const TeamSection: React.FC<Props> = () => {
                             </div>
                         ))
                     }
+                    </Fade>
 
                 </div>
 

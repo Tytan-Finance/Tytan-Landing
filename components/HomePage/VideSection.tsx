@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from "react-player";
+import {Fade} from "react-awesome-reveal";
 
 interface Props {
 }
@@ -7,6 +8,8 @@ interface Props {
 const VideSection: React.FC<Props> = () => {
     return (
         <div className={`py-20`}>
+            <Fade triggerOnce>
+
             <div className={`max-w-[1000px] mx-auto p-4`}>
                 <div className='player-wrapper'>
                     <ReactPlayer
@@ -18,6 +21,7 @@ const VideSection: React.FC<Props> = () => {
                     />
                 </div>
             </div>
+            </Fade>
         </div>
     );
 };
