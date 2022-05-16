@@ -17,8 +17,8 @@ const HeroSection: React.FC<{}> = () => {
                     </h1>
 
                     <ResponsiveBody1 className={`mt-8 max-w-[760px] text-center mx-auto`}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis eros erat, a
-                        dapibus enim vulputate eu. Donec tristique ex sed leo rutrum aliquam ornare at quam
+                        We've travelled the wormholes of the rebase galaxy far & wide. Only to find the future is TYTAN. 
+                        With immediately utility on launch. Strap in and feel the g force of rebase at its finest.
                     </ResponsiveBody1>
 
                     <div
