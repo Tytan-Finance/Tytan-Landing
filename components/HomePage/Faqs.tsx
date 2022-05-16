@@ -5,40 +5,36 @@ import {Fade} from "react-awesome-reveal";
 const leftFaqs = [
     {
         id: 1,
-        question: 'Who are the TYTAN Team?',
-        ans: 'This is a test answer',
+        question: 'When launch?',
+        ans: '31th May',
     }, {
         id: 2,
-        question: 'Have you had a full team KYC?',
-        ans: 'This is a test answer',
+        question: 'What are the trading fees?',
+        ans: 'Buy Trading Fees: <br/>  4.0% - LP  |  4.5% - Treasury  |  2.5% - TYTAN Insurance Fund   |  3% - Inferno  <br/>    Sell Trading Fees:  <br/>    4.0% - LP  |  4.5% - Treasury  |  4.0% - TYTAN Insurance Fund  |  3.5% - Inferno   <br/>   [Buy - 14%]   <br/>   [Sell - 16%]',
     }, {
         id: 3,
-        question: 'How do I know this isn\'t a Rug-Pull?',
-        ans: 'This is a test answer',
+        question: 'What network are you launching on?',
+        ans: 'We will first be launching on the Binance Smart Chain (BSC) Network initially, then followed by AVAX, FTM, and other platforms as we go cross-chain.',
     }, {
         id: 4,
-        question: 'Can you explain the process of buying at Pre-Launch on PinkSale?',
-        ans: 'This is a test answer',
+        question: 'Is there a WL role?',
+        ans: 'No. TYTAN will be a fair launch with presale - we do not want any advantaged buyers.',
     },
 ];
 
 const rightFaqs = [
     {
         id: 1,
-        question: 'Is there a Whitelist process?',
-        ans: 'This is a test answer',
+        question: 'How often is the rebase?',
+        ans: 'Every 30 minutes',
     }, {
         id: 2,
-        question: 'Will I start receiving my APY interest yield immediately on Day 1 after I purchase at Pre-Launch?',
-        ans: 'This is a test answer',
+        question: 'Where is the main Liquidity?',
+        ans: 'BSC - OrbitalSwap',
     }, {
         id: 3,
-        question: 'Is TYTAN just another Titano Fork?',
-        ans: 'This is a test answer',
-    }, {
-        id: 4,
-        question: 'How can you sustain such a big APY?',
-        ans: 'This is a test answer',
+        question: 'What are the TYTAN tokens?',
+        ans: '$TYTAN & $TYSHARE',
     },
 ]
 
