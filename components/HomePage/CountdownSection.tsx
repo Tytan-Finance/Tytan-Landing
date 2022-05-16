@@ -27,7 +27,7 @@ interface Props {
 
 const CountdownSection: React.FC<Props> = (props) => {
 
-    const expiryTimestamp = new Date('2022-05-25T10:00:00Z');
+    const expiryTimestamp = new Date('2022-05-31T10:00:00Z');
 
     const {
         seconds,
@@ -117,7 +117,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                                     <circle cx={4} cy={4} r={4} fill="#fff"/>
                                 </svg>
                                 <p className={`font-Planer-Bold text-xl text-center`}>
-                                    May 25th 3pm EST and will continue until cap reached
+                                    May 31th 3pm EST and will continue until cap reached
                                 </p>
                             </div>
                         </Fade>
