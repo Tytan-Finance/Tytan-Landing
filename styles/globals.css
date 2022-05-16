@@ -81,9 +81,7 @@
     }
 
     @media only screen and (max-width: 600px) {
-        .countdown-container {
-            justify-content: flex-start !important;
-        }
+
 
         .video-bg-img {
             top: 64rem;
@@ -97,6 +95,20 @@
     @media only screen and (max-width: 480px) {
         .video-bg-img {
             top: 70rem;
+        }
+    }
+
+    @media only screen and (max-width: 410px) {
+        .countdown-container {
+
+        }
+    }
+
+    @media only screen and (max-width: 330px) {
+        .countdown-container {
+            justify-content: center;
+            overflow-x: scroll;
+            justify-content: flex-start !important;
         }
     }
 

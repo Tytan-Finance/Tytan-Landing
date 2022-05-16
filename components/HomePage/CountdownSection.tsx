@@ -7,7 +7,8 @@ import {AttentionSeeker, Fade} from "react-awesome-reveal";
 const CountdownHeading: React.FC<{}> = ({children}) => {
     return (
         <ResponsiveH1
-            className={`w-[80px] h-[80px]  md:w-[102px] md:h-[102px] flex items-center justify-center countdown-item`}>
+            withCustomFontSize
+            className={`lg:w-[80px] md:text-[45px] lg:text-[50px] lg:h-[80px] w-[40px] h-[40px] text-[1.1rem] md:text-lg flex items-center justify-center countdown-item`}>
             {children}
         </ResponsiveH1>
     )
@@ -58,7 +59,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                     <AttentionSeeker triggerOnce cascade={true} effect={'pulse'}>
                         <div className={`mt-12`}>
                             <div
-                                className="grid grid-flow-col pt-4 gap-10 text-center auto-cols-max overflow-x-scroll md:overflow-auto countdown-container justify-center">
+                                className="grid grid-flow-col pt-4 gap-4 md:gap-10 text-center auto-cols-max countdown-container justify-center">
                                 <div className="flex flex-col">
                                     {/*<span className="countdown font-mono text-5xl">*/}
                                     {/*  <span style={{'--value':days}}></span>*/}
@@ -101,7 +102,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                         </div>
                     </AttentionSeeker>
                     {/*     Below Countdown text    */}
-                    <div className={`mt-20 flex flex-col md:flex-row items-center md:space-x-4 justify-center `}>
+                    <div className={`mt-20 flex flex-col md:flex-row items-center md:space-x-4 justify-center`}>
                         <Fade triggerOnce cascade={true} direction={'up'}>
                             <p className={`font-Planer-Bold text-primary text-2xl`}>Presale details</p>
                             <div className={`flex space-x-4`}>
