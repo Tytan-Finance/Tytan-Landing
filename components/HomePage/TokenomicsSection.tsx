@@ -57,7 +57,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
                                         Automatic LP <br/>
-                                        4% of order fees return to liquidity
+                                        4.0% of order fees return to liquidity
                                     </p>
                                 </div>
 
@@ -111,7 +111,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
                                         Inferno <br/>
-                                        3% of TYTAN is burnt in the Inferno
+                                        3.0% of TYTAN is burnt in the Inferno
                                     </p>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
                                         Automatic LP <br/>
-                                        4% of order fees return to liquidity
+                                        4.0% of order fees return to liquidity
                                     </p>
                                 </div>
 
@@ -162,7 +162,7 @@ const TokenomicsSection: React.FC<Props> = () => {
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
                                         TYTAN Insurance Fund <br/>
-                                        4% of order fees are stored in TIF
+                                        4.0% of order fees are stored in TIF
                                     </p>
                                 </div>
 
