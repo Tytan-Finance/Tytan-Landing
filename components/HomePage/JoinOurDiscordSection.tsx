@@ -8,7 +8,7 @@ interface Props {
 
 const JoinOurDiscordSection: React.FC<Props> = () => {
     return (
-        <div className={'overflow-hidden'}>
+        <a target={'_blank'} href={'https://discord.gg/rC83Q7WZuc'} className={'overflow-hidden'}>
 
             <AttentionSeeker triggerOnce effect={'jello'}>
 
@@ -27,7 +27,7 @@ const JoinOurDiscordSection: React.FC<Props> = () => {
                     </div>
                 </div>
             </AttentionSeeker>
-        </div>
+        </a>
     );
 };
 
