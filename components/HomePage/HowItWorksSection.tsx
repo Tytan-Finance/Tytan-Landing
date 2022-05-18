@@ -61,7 +61,7 @@ const stepsData = [
         imgWidth: 100,
         imgHeight: 113,
         desc: <>
-            3% of Buys and 3.5% of $TYTAN Sells traded, are burnt in the Inferno. The more traded the more the Inferno
+            3% of Buys and 3.5% of $TYTAN Sells traded, are burnt in the Afterburner. The more traded the more the Afterburner
             grows in size, reducing the circulating supply & keeping the TYTAN protocol stable.
         </>
     },
