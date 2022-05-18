@@ -38,7 +38,7 @@ const Faq: React.FC<Props> = ({question, ans}) => {
                 </div>
             </div>
             <div className="collapse-content">
-                <p>{ans}</p>
+                <p dangerouslySetInnerHTML={{__html: ans}} />
             </div>
         </div>
     );
