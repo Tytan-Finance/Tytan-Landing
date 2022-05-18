@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                     <div className={`relative w-full shrink-0`}>
                     <CompetitiveAdvantagesSection/>
                     <VideSection/>
-                    {/* <TeamSection/> */}
+                    <TeamSection/>
                     </div>
                 </div>
             </div>
