@@ -17,7 +17,7 @@ const VideSection: React.FC<Props> = () => {
                             <ReactPlayer
                                 controls={true}
                                 className='react-player'
-                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ'
+                                url='https://www.youtube.com/watch?v=SEm0_7ODGk0'
                                 width='100%'
                                 height='100%'
                             />
@@ -29,7 +29,7 @@ const VideSection: React.FC<Props> = () => {
                             <ReactPlayer
                                 controls={true}
                                 className='react-player'
-                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ'
+                                url='https://www.youtube.com/watch?v=-ynz3ozgG0w'
                                 width='100%'
                                 height='100%'
                             />
@@ -41,7 +41,7 @@ const VideSection: React.FC<Props> = () => {
                             <ReactPlayer
                                 controls={true}
                                 className='react-player'
-                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ'
+                                url='https://www.youtube.com/watch?v=UcijGMHbcZ0'
                                 width='100%'
                                 height='100%'
                             />
@@ -53,7 +53,7 @@ const VideSection: React.FC<Props> = () => {
                             <ReactPlayer
                                 controls={true}
                                 className='react-player'
-                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ'
+                                url='https://www.youtube.com/watch?v=HL0BjATm-MM&t=2s'
                                 width='100%'
                                 height='100%'
                             />
@@ -65,7 +65,7 @@ const VideSection: React.FC<Props> = () => {
                             <ReactPlayer
                                 controls={true}
                                 className='react-player'
-                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ'
+                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ&t=2s'
                                 width='100%'
                                 height='100%'
                             />
@@ -77,7 +77,7 @@ const VideSection: React.FC<Props> = () => {
                             <ReactPlayer
                                 controls={true}
                                 className='react-player'
-                                url='https://www.youtube.com/watch?v=aeN1QeFDBjQ'
+                                url='https://www.youtube.com/watch?v=2a2HX2KkdZE'
                                 width='100%'
                                 height='100%'
                             />
