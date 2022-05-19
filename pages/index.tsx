@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             <TytanAutoLiquiditySection/>
             <TokenomicsSection/>
 
-            <div className={`relative`}>
+            <div className={`relative overflow-hidden`}>
                 {/*     Image Section   */}
                 <div className={`grid-rows-1 grid-cols-1 pointer-events-none`}>
                     <div className={`absolute w-full left-0 video-bg-img`}>
