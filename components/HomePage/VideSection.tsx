@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactPlayer from "react-player";
-import {Fade} from "react-awesome-reveal";
+import ReactPlayer from 'react-player/youtube'
 
 interface Props {
 }
