@@ -14,7 +14,7 @@ const leftFaqs = [
     }, {
         id: 3,
         question: 'What network are you launching on?',
-        ans: 'We will first be launching on the Binance Smart Chain (BSC) Network initially, then followed by AVAX, FTM, and other platforms as we go cross-chain.',
+        ans: 'Intial Launch will be on BSC.',
     }, {
         id: 4,
         question: 'Is there a WL role?',
