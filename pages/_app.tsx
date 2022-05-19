@@ -31,7 +31,6 @@ function MyApp({Component, pageProps}: AppProps) {
                 <meta name="description"
                       content="TYTAN is a cross chain mega project that will redefine Defi, and Crypto."/>
 
-                <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
 
                 {/*// <!-- Global site tag (gtag.js) - Google Analytics -->*/}
