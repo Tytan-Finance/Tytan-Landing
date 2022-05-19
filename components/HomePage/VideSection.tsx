@@ -10,9 +10,9 @@ const VideSection: React.FC<Props> = () => {
         <div className={`py-20`}>
             {/*<Fade triggerOnce>*/}
 
-            <div className={`max-w-[1000px] mx-auto p-4`}>
+            <div className={`max-w-[1280px] mx-auto p-4`}>
                 <div className={`flex items-center justify-center flex-wrap gap-5`}>
-                    <div className={`max-w-[300px] w-full`}>
+                    <div className={`max-w-[400px] w-full`}>
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 controls={true}
@@ -24,7 +24,7 @@ const VideSection: React.FC<Props> = () => {
                         </div>
                     </div>
 
-                    <div className={`max-w-[300px] w-full`}>
+                    <div className={`max-w-[400px] w-full`}>
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 controls={true}
@@ -36,7 +36,7 @@ const VideSection: React.FC<Props> = () => {
                         </div>
                     </div>
 
-                    <div className={`max-w-[300px] w-full`}>
+                    <div className={`max-w-[400px] w-full`}>
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 controls={true}
@@ -48,7 +48,7 @@ const VideSection: React.FC<Props> = () => {
                         </div>
                     </div>
 
-                    <div className={`max-w-[300px] w-full`}>
+                    <div className={`max-w-[400px] w-full`}>
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 controls={true}
@@ -60,7 +60,7 @@ const VideSection: React.FC<Props> = () => {
                         </div>
                     </div>
 
-                    <div className={`max-w-[300px] w-full`}>
+                    <div className={`max-w-[400px] w-full`}>
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 controls={true}
@@ -72,7 +72,7 @@ const VideSection: React.FC<Props> = () => {
                         </div>
                     </div>
 
-                    <div className={`max-w-[300px] w-full`}>
+                    <div className={`max-w-[400px] w-full`}>
                         <div className='player-wrapper'>
                             <ReactPlayer
                                 controls={true}
