@@ -97,7 +97,7 @@ const TokenomicsSection: React.FC<Props> = () => {
                                     </p>
                                 </div>
 
-                                {/*     Inferno        */}
+                                {/*     Afterburner        */}
                                 <div className={`flex space-x-4`}>
                                     <svg
                                         width={12}
@@ -110,8 +110,8 @@ const TokenomicsSection: React.FC<Props> = () => {
                                     </svg>
 
                                     <p className={`text-green font-Planer-DemiBold font-[18px]`}>
-                                        Inferno <br/>
-                                        3.0% of TYTAN is burnt in the Inferno
+                                        Afterburner <br/>
+                                        3.0% of TYTAN is burnt in the Afterburner
                                     </p>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@ const TokenomicsSection: React.FC<Props> = () => {
                                     </p>
                                 </div>
 
-                                {/*     Inferno        */}
+                                {/*     Afterburner        */}
                                 <div className={`flex space-x-4`}>
                                     <svg
                                         width={12}
@@ -197,8 +197,8 @@ const TokenomicsSection: React.FC<Props> = () => {
                                     </svg>
 
                                     <p className={`text-red font-Planer-DemiBold font-[18px]`}>
-                                        Inferno <br/>
-                                        3.5% of TYTAN is burnt in the Inferno
+                                        Afterburner <br/>
+                                        3.5% of TYTAN is burnt in the Afterburner
                                     </p>
                                 </div>
                             </div>
