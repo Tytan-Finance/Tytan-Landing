@@ -10,7 +10,7 @@ const leftFaqs = [
     }, {
         id: 2,
         question: 'What are the trading fees?',
-        ans: 'Buy Trading Fees: <br/>  4.0% - LP  |  4.5% - Treasury  |  2.5% - TYTAN Insurance Fund   |  3% - Afterburner  <br/>    Sell Trading Fees:  <br/>    4.0% - LP  |  4.5% - Treasury  |  4.0% - TYTAN Insurance Fund  |  3.5% - Afterburner   <br/>   [Buy - 14%]   <br/>   [Sell - 16%]',
+        ans: 'Buy Trading Fees: <br/>  4.0% - LP  |  4.5% - Treasury  |  2.5% - TYTAN Insurance Fund   |  3.0% - Afterburner  <br/>    Sell Trading Fees:  <br/>    4.0% - LP  |  4.5% - Treasury  |  4.0% - TYTAN Insurance Fund  |  3.5% - Afterburner   <br/>   [Buy - 14%]   <br/>   [Sell - 16%]',
     }, {
         id: 3,
         question: 'What network are you launching on?',

@@ -22,7 +22,7 @@ function MyApp({Component, pageProps}: AppProps) {
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name="twitter:title" content="TYTAN Finance"/>
                 <meta name="twitter:description"
-                      content="TYTAN is a cross chain mega project that will redefine Defi, and Crypto."/>
+                      content="TYTAN is a mega project that will redefine Defi, and Crypto."/>
                 <meta name="twitter:image" content="https://tytan.finance/images/hero.png"/>
 
                 <meta httpEquiv='cache-control' content='no-cache'/>
