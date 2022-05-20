@@ -15,7 +15,7 @@ const navLinks = [
     }, {
         id: 2,
         text: 'Whitepaper',
-        href: 'https://tytan.finance/TYTAN_Whitepaper.pdf',
+        href: '/whitepaper.pdf',
     }, {
         id: 3,
         text: 'glossary',
