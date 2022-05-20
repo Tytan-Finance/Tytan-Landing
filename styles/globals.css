@@ -18,6 +18,11 @@
         --tw-bg-opacity: 1;
         background-color: rgb(18 18 18 / var(--tw-bg-opacity));
     }
+
+    .btn {
+        --tw-bg-opacity: 1;
+        background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+    }
     .grid-3cols-auto {
         grid-template-columns: auto auto auto;
     }
