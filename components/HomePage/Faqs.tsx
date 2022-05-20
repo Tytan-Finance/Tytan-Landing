@@ -6,7 +6,7 @@ const leftFaqs = [
     {
         id: 1,
         question: 'When launch?',
-        ans: '31th May',
+        ans: '31st May',
     }, {
         id: 2,
         question: 'What are the trading fees?',
