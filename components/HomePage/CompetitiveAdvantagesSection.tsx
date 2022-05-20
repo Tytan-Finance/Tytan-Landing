@@ -193,10 +193,10 @@ const CompetitiveAdvantagesSection: React.FC<Props> = () => {
                         {/*// <!-- head -->*/}
                         <thead>
                         <tr>
-                            <th className={`text-[30px] text-green font-Planer-DemiBold`}>Features</th>
-                            <th className={`text-[30px] text-green font-Planer-DemiBold`}>Tytan</th>
-                            <th className={`text-[30px] text-green font-Planer-DemiBold`}>Titano</th>
-                            <th className={`text-[30px] text-green font-Planer-DemiBold`}>Libero</th>
+                            <th className={`text-[30px] text-green font-Planer-DemiBold compare`}>Features</th>
+                            <th className={`text-[30px] text-green font-Planer-DemiBold compare`}>Tytan</th>
+                            <th className={`text-[30px] text-green font-Planer-DemiBold compare`}>Titano</th>
+                            <th className={`text-[30px] text-green font-Planer-DemiBold compare`}>Libero</th>
                         </tr>
                         </thead>
 

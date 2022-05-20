@@ -19,6 +19,9 @@
         background-color: rgb(18 18 18 / var(--tw-bg-opacity));
     }
 
+    .compare {
+        background: #121212
+    }
     .menu {
         --tw-bg-opacity: 1;
         background-color: rgb(18 18 18 / var(--tw-bg-opacity));
