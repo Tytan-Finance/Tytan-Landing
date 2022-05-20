@@ -42,7 +42,7 @@ const Header: React.FC<Props> = () => {
                 <div className={`hidden md:flex items-center`}>
                     {
                         navLinks.map(({text,isPageLink, href, id}) => (
-                            <ButtonText isPageLink={isPageLink} href={href} key={id}>
+                            <ButtonText isPageLink={isPageLink} href={href} key={id} className='menu'>
                                 {text}
                             </ButtonText>
                         ))
