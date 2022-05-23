@@ -29,7 +29,7 @@ const stepsData = [
         heading: 'auto compOunding',
         desc: <>
             Revolutionary Auto-Staking and Auto-Compounding Protocol, with one of the greatest fixed APYs in the
-            industry of 125,124%. Interest rewards also compounded every 15 minutes for every BSC wallet that holds
+            industry of 125,124%. Interest rewards also compounded every 30 minutes for every BSC wallet that holds
             $TYTAN.
         </>
     },
