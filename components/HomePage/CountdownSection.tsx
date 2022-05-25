@@ -27,7 +27,8 @@ interface Props {
 
 const CountdownSection: React.FC<Props> = (props) => {
 
-    const expiryTimestamp = new Date('2022-05-31T10:00:00Z');
+    const expiryTimestamp = new Date('May 31 2022 21:00:00 EST');
+    
 
     const {
         seconds,
@@ -44,8 +45,6 @@ const CountdownSection: React.FC<Props> = (props) => {
     return (
         <div className={`bg-black pb-20`}>
             <div className={`max-w-[1000px] mx-auto p-4 overflow-hidden`}>
-
-
                 <div
                     className={`border-[3px] border-accent border-solid mx-auto px-6 md:px-12 py-10 md:py-20 `}
                 >
@@ -86,7 +85,6 @@ const CountdownSection: React.FC<Props> = (props) => {
                                     <CountdownSubHeading>
                                         min
                                     </CountdownSubHeading>
-
                                 </div>
                                 <div className="flex flex-col">
                                     <CountdownHeading>
@@ -95,10 +93,8 @@ const CountdownSection: React.FC<Props> = (props) => {
                                     <CountdownSubHeading>
                                         sec
                                     </CountdownSubHeading>
-
                                 </div>
                             </div>
-
                         </div>
                     </AttentionSeeker>
                     {/*     Below Countdown text    */}
