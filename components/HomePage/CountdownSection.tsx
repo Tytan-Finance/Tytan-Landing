@@ -27,7 +27,7 @@ interface Props {
 
 const CountdownSection: React.FC<Props> = (props) => {
 
-    const expiryTimestamp = new Date('May 31 2022 21:00:00 EST');
+    const expiryTimestamp = new Date('May 31 2022 15:00:00 EST');
     
 
     const {
