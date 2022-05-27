@@ -25,6 +25,10 @@ const navLinks = [
         id: 4,
         text: 'Discord',
         href: 'https://discord.gg/rC83Q7WZuc',
+    }, {
+        id: 5,
+        text: 'Docs',
+        href: 'https://docs.tytan.finance/',
     },
 ];
 
