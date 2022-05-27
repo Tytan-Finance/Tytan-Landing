@@ -113,7 +113,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                                     <circle cx={4} cy={4} r={4} fill="#fff"/>
                                 </svg>
                                 <p className={`font-Planer-Bold text-xl text-center`}>
-                                    May 31st 3pm EST and will continue until cap reached
+                                    May 31st 3pm EDT and will continue until cap reached
                                 </p>
                             </div>
                         </Fade>
