@@ -109,9 +109,11 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                                 Audit
                             </ButtonPrimary>
 
-                            <ButtonPrimary>
-                                Whitepaper
-                            </ButtonPrimary>
+                            <a target={'_blank'} href="/whitepaper.pdf">
+                                <ButtonPrimary>
+                                    Whitepaper
+                                </ButtonPrimary>
+                            </a>
                         </div>
                     </Fade>
 
