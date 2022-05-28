@@ -28,7 +28,7 @@ interface Props {
 const CountdownSection: React.FC<Props> = (props) => {
 
     const expiryTimestamp = new Date('May 31 2022 15:00:00 EDT');
-    
+
 
     const {
         seconds,
@@ -100,7 +100,13 @@ const CountdownSection: React.FC<Props> = (props) => {
                     {/*     Below Countdown text    */}
                     <div className={`mt-20 flex flex-col md:flex-row items-center md:space-x-4 justify-center`}>
                         <Fade triggerOnce cascade={true} direction={'up'}>
-                            <p className={`font-Planer-Bold text-primary text-2xl`}>Presale details</p>
+                            <a
+                                target={'_blank'}
+                                href={'https://orbitalswap.com/launchpads/0x6dC5C1b2Baf81f76E5BCb468E1496c6416841370'}
+                                className={`font-Planer-Bold text-primary text-2xl`}
+                            >
+                                Presale details
+                            </a>
                             <div className={`flex space-x-4`}>
                                 <svg
                                     width={8}
