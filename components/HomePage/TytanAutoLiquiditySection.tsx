@@ -75,7 +75,7 @@ const TytanAutoLiquiditySection: React.FC<Props> = () => {
                 <Fade triggerOnce direction={'up'} cascade={true}>
 
                     <p className={`text-sm font-Planer-Italic text-accent text-center pt-16`}>
-                        MAY 28, 2022: Please note the above wording has been corrected with the addition of the 15:00:00
+                        June 1, 2022: Please note the above wording has been corrected with the addition of the 15:00:00
                         timestamp.
                     </p>
 
