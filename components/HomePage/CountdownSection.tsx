@@ -27,7 +27,7 @@ interface Props {
 
 const CountdownSection: React.FC<Props> = (props) => {
 
-    const expiryTimestamp = new Date('May 31 2022 15:00:00 EDT');
+    const expiryTimestamp = new Date('June 04 2022 15:00:00 EDT');
 
 
     const {
@@ -50,7 +50,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                 >
                     <AttentionSeeker triggerOnce effect={'heartBeat'}>
                         <ResponsiveH1 className={`text-center text-primary`}>
-                            Presale Starts in
+                            Presale Ends in
                         </ResponsiveH1>
                     </AttentionSeeker>
 
@@ -97,8 +97,21 @@ const CountdownSection: React.FC<Props> = (props) => {
                             </div>
                         </div>
                     </AttentionSeeker>
+                    <div className='mt-10'>
+                        <AttentionSeeker triggerOnce effect={'heartBeat'}>
+                            <ResponsiveH1 className={`text-center text-primary`}>
+                            <a
+                                target={'_blank'}
+                                href={'https://orbitalswap.com/launchpads/0xBa809c35E9314E89a82de6d7Ccf9DC3f4C0CA28E'}
+                                className={`font-Planer-Bold text-primary text-3xl`}
+                            >
+                                Join Presale Now
+                            </a>
+                            </ResponsiveH1>
+                        </AttentionSeeker>
+                    </div>
                     {/*     Below Countdown text    */}
-                    <div className={`mt-20 flex flex-col md:flex-row items-center md:space-x-4 justify-center`}>
+                    <div className={`mt-10 flex flex-col md:flex-row items-center md:space-x-4 justify-center`}>
                         <Fade triggerOnce cascade={true} direction={'up'}>
                             <a
                                 target={'_blank'}
