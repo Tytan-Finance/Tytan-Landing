@@ -102,7 +102,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                         <Fade triggerOnce cascade={true} direction={'up'}>
                             <a
                                 target={'_blank'}
-                                href={'https://orbitalswap.com/launchpads/0x6dC5C1b2Baf81f76E5BCb468E1496c6416841370'}
+                                href={'https://orbitalswap.com/launchpads/0xBa809c35E9314E89a82de6d7Ccf9DC3f4C0CA28E'}
                                 className={`font-Planer-Bold text-primary text-2xl`}
                             >
                                 Presale details
