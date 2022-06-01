@@ -28,19 +28,22 @@ interface Props {
 const CountdownSection: React.FC<Props> = (props) => {
 
     const expiryTimestamp = new Date('June 04 2022 15:00:00 EDT');
+    const seconds = 33
+    const minutes = 1
+    const hours = 1
+    const days = 0
 
-
-    const {
-        seconds,
-        minutes,
-        hours,
-        days,
-        isRunning,
-        start,
-        pause,
-        resume,
-        restart,
-    } = useTimer({expiryTimestamp, onExpire: () => console.warn('onExpire called')});
+    // const {
+    //     seconds,
+    //     minutes,
+    //     hours,
+    //     days,
+    //     isRunning,
+    //     start,
+    //     pause,
+    //     resume,
+    //     restart,
+    // } = useTimer({expiryTimestamp, onExpire: () => console.warn('onExpire called')});
 
     return (
         <div className={`bg-black pb-20`}>
@@ -50,7 +53,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                 >
                     <AttentionSeeker triggerOnce effect={'heartBeat'}>
                         <ResponsiveH1 className={`text-center text-primary`}>
-                            Presale Ends in
+                            Presale Sold Out In
                         </ResponsiveH1>
                     </AttentionSeeker>
 
@@ -105,7 +108,7 @@ const CountdownSection: React.FC<Props> = (props) => {
                                 href={'https://orbitalswap.com/launchpads/0xBa809c35E9314E89a82de6d7Ccf9DC3f4C0CA28E'}
                                 className={`font-Planer-Bold text-primary text-3xl`}
                             >
-                                Join Presale Now
+                                Join Claim Now
                             </a>
                             </ResponsiveH1>
                         </AttentionSeeker>
@@ -132,46 +135,11 @@ const CountdownSection: React.FC<Props> = (props) => {
                                     <circle cx={4} cy={4} r={4} fill="#fff"/>
                                 </svg>
                                 <p className={`font-Planer-Bold text-xl text-center`}>
-                                    May 31st 3pm EDT and will continue until cap reached
+                                    May 31st 04:01:33 EDT all the tokes sold out
                                 </p>
                             </div>
                         </Fade>
                     </div>
-
-                    {/*  Min - Max - *All pre launch sales in Bnb Token  */}
-                    <div
-                        className={`grid grid-cols-1 md:grid-3cols-auto gap-1 md:gap-10 text-center  mt-6 justify-center`}>
-                        <Fade triggerOnce direction={'up'} cascade={true}>
-
-                            {/*     Min*     */}
-                            <div className={`flex items-center space-x-4 justify-center`}>
-                                <p className={`text-green text-xl font-Planer-Bold`}>
-                                    Min
-                                </p>
-                                <p className={`text-xl font-Planer-Bold`}>
-                                    0.5 BNB
-                                </p>
-                            </div>
-
-                            {/*     Max      */}
-                            <div className={`flex items-center space-x-4 justify-center`}>
-                                <p className={`text-green text-xl font-Planer-Bold`}>
-                                    Max
-                                </p>
-                                <p className={`text-xl font-Planer-Bold`}>
-                                    10 BNB
-                                </p>
-                            </div>
-
-                            {/*     *All pre launch sales in Bnb Token      */}
-                            <div className={``}>
-                                <p className={` text-xl font-Planer-Medium`}>
-                                    *All pre launch sales in BNB Token
-                                </p>
-                            </div>
-                        </Fade>
-                    </div>
-
                 </div>
 
             </div>
