@@ -23,14 +23,17 @@ const HeroSection: React.FC<{}> = () => {
 
                     <div
                         className={`flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 space-x-8 mt-16`}>
-                        <ButtonPrimary bgGreen withLeftCut btnLg>
-                            Click here to buy tytan
-                        </ButtonPrimary>
-
-                        <ButtonPrimary withRightCut btnLg>
-                            Go to the charts
-                        </ButtonPrimary>
-
+                        <a target={'_blank'} href="https://orbitalswap.com/swap?outputCurrency=0x912F594Fd096E67e0c0A18D496A9f70E3171c330">
+                            <ButtonPrimary bgGreen withLeftCut btnLg>
+                                Click here to buy tytan
+                            </ButtonPrimary>
+                        </a>
+                        <a target={'_blank'} href="https://dexscreener.com/bsc/0x71125dff884402efff470476440946ef04b56180">
+                            <ButtonPrimary withRightCut btnLg>
+                                Go to the charts
+                            </ButtonPrimary>
+                        </a>
+                        
                     </div>
                 </Fade>
 
