@@ -55,9 +55,12 @@ const Header: React.FC<Props> = () => {
 
                 {/*     Right side buttons      */}
                 <div className={`flex items-center space-x-2 sm:space-x-4`}>
-                    <ButtonPrimary withRightCut={true}>
-                        open app
-                    </ButtonPrimary>
+
+                    <a target={'_blank'} href="https://app.tytan.finance">
+                        <ButtonPrimary withRightCut={true}>
+                            open app
+                        </ButtonPrimary>
+                    </a>
                     {/*<button className={`btn`}>*/}
                     <div className="md:hidden dropdown dropdown-end">
                         <label tabIndex={0} className="btn btn-primary btn-circle">

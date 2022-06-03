@@ -105,10 +105,11 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                         </ResponsiveBody1>
 
                         <div className={`flex items-center mt-12 justify-center space-x-4`}>
-                            <ButtonPrimary bgGreen>
-                                Audit
-                            </ButtonPrimary>
-
+                            <a target={'_blank'} href="https://drive.google.com/file/d/1krgWsiESElM367n8ykiPXTVpSZ4BEzw0/view">
+                                <ButtonPrimary bgGreen>
+                                    Audit
+                                </ButtonPrimary>
+                            </a>
                             <a target={'_blank'} href="/whitepaper.pdf">
                                 <ButtonPrimary>
                                     Whitepaper

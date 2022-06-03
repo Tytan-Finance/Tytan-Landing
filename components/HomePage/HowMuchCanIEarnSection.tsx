@@ -44,9 +44,11 @@ const HowMuchCanIEarnSection: React.FC<Props> = () => {
                                 </ResponsiveBody1>
                             </div>
 
-                            <ButtonPrimary>
-                                open app
-                            </ButtonPrimary>
+                            <a target={'_blank'} href="https://app.tytan.finance">
+                                <ButtonPrimary>
+                                    open app
+                                </ButtonPrimary>
+                            </a>
 
                         </div>
 
