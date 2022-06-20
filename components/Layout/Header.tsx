@@ -24,7 +24,7 @@ const navLinks = [
     }, {
         id: 4,
         text: 'Discord',
-        href: 'https://discord.gg/rC83Q7WZuc',
+        href: 'https://discord.gg/7nmjqQSvpJ',
     }, {
         id: 5,
         text: 'Docs',

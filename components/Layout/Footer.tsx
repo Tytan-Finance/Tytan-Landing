@@ -15,7 +15,7 @@ const Footer: React.FC<Props> = () => {
                 </ResponsiveH1>
 
                 <div className={`mt-10 flex justify-center items-center space-x-10`}>
-                    <a target={'_blank'} href={'https://discord.gg/rC83Q7WZuc'}>
+                    <a target={'_blank'} href={'https://discord.gg/7nmjqQSvpJ'}>
                         <Image src={'/socials/discord.svg'} width={38.86} height={43.23}/>
                     </a>
 

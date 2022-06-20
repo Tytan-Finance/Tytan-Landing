@@ -8,7 +8,7 @@ interface Props {
 
 const JoinOurDiscordSection: React.FC<Props> = () => {
     return (
-        <a target={'_blank'} href={'https://discord.gg/rC83Q7WZuc'} className={'overflow-hidden'}>
+        <a target={'_blank'} href={'https://discord.gg/7nmjqQSvpJ'} className={'overflow-hidden'}>
 
             <AttentionSeeker triggerOnce effect={'jello'}>
 
