@@ -80,7 +80,7 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                     <Fade triggerOnce direction={'up'} delay={2}>
 
                         <p className={`mt-6 text-accent text-center font-Planer-DemiBold text-[29px]`}>
-                            Fixed Staking APY
+                            Variable Staking APY
                         </p>
                     </Fade>
 
@@ -99,7 +99,7 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                             TYTAN provides a decentralized financial asset which rewards users with a sustainable fixed
                             compound interest model through use of it’s unique TYTAN protocol.
                             <br/><br/>
-                            TYTAN delivers the industry’s highest fixed APY, paid every 30 minutes, and a simple
+                            TYTAN delivers the industry’s highest variable APY, paid every 30 minutes, and a simple
                             buy-hold-earn system that grows your $TYTAN portfolio in your wallet at a lightning fast
                             pace.
                         </ResponsiveBody1>

@@ -18,7 +18,7 @@ const stepsData = [
             $TYTAN is the native token which pays interest rebase rewards. Every token holder automatically receives
             interest rewards every 30 minutes just for holding $TYTAN tokens in their own wallet.
             <br/> <br/>
-            Highest Fixed APY : 125,124%
+            Highest Variable APY : 125,124%
         </>
     },
     {
@@ -28,7 +28,7 @@ const stepsData = [
         imgHeight: 76,
         heading: 'auto compOunding',
         desc: <>
-            Revolutionary Auto-Staking and Auto-Compounding Protocol, with one of the greatest fixed APYs in the
+            Revolutionary Auto-Staking and Auto-Compounding Protocol, with one of the greatest variable APYs in the
             industry of 125,124%. Interest rewards also compounded every 30 minutes for every BSC wallet that holds
             $TYTAN.
         </>
