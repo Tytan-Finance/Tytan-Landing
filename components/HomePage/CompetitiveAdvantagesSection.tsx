@@ -9,7 +9,7 @@ const tableData = [
         hasTytan: false,
         hasTitano: false,
         hasLibero: false,
-        tytanPercentage: "125,124%",
+        tytanPercentage: "3,783%",
         titanoPercentage: '102,483.58%',
         liberoPercentage: '158,893.59%',
     }, {

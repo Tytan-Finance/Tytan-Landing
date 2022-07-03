@@ -73,7 +73,7 @@ const AutoStackingProtocolsSection: React.FC<Props> = () => {
                     <AttentionSeeker triggerOnce effect={'swing'} delay={5}>
 
                         <h1 className={`text-green mt-6 text-center text-[50px] md:text-[95px] font-Planer-DemiBold`}>
-                            125,124%
+                            3,783%
                         </h1>
                     </AttentionSeeker>
 
